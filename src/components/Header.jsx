@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Header = ({ insideHome }) => {
     return (
         <nav className='flex bg-violet-600 w-full p-5 text-white fixed'>
-            <Link className='text-2xl font-bold' to={'/'}><i class="fa-solid fa-truck-fast me-1"></i>E Cart</Link>
+            <Link className='text-2xl font-bold' to={'/'}><i className="fa-solid fa-truck-fast me-1"></i>E Cart</Link>
             <ul className='flex-1 text-right'>
                 {
                     insideHome &&
