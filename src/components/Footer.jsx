@@ -30,7 +30,7 @@ const Footer = () => {
         {/* Social media */}
         <div style={{width: "400px"}}>
           <h5 className='font-bold'>Contact Us</h5>
-          <div className='flex'><input type="text" placeholder='Enter your email' className='rounded p-2 me-2' /><i className="fa-solid fa-arrow-right mt-3"></i></div>
+          <div className='flex p-2'><input type="text" placeholder='Enter your email' className='rounded p-2 me-2' /><i className="fa-solid fa-arrow-right mt-3"></i></div>
           <div className='flex p-2'>
             <a style={{textDecoration: "none"}} target='_blank' href="https://www.facebook.com/"><i className="fa-brands fa-facebook me-2"></i></a>
             <a style={{textDecoration: "none"}} target='_blank' href="https://www.instagram.com/accounts/emailsignup/?hl=en"><i className="fa-brands fa-instagram me-2"></i></a>
